@@ -10,45 +10,58 @@ proc rnd
 inv+ 100.00,йен
 день=0
 час=0
-pln Япония. XVIII век. Умирает старый купец в своем доме.
-pln Три сына есть у него. Трех сыновей зовет он к себе.
-pln - Рано радуетесь вы моей смерти, еще не сейчас я помру. Мудрый монах сказал,
-pln что помру я еще через месяц. Вы прекрасно знаете, что у меня есть 10000 йен
-pln в рисовых талонах, которые я сделал с помощью спекуляций на цене риса. Однако
-pln я не дам их вам - ни тебе Таро, ни тебе Джиро, ни тебе Сабуро. Сорок лет
-pln назад, такой же молодой как и вы сейчас, я прибыл в Осаку, имея всего лишь
-pln сто йен - все что осталось мне от моего отца, после того как он умер и я
-pln продал его дом. Не зная чем заняться в большом городе, я приступил к
-pln спекуляциям на цене риса - и сразу же преуспел - хотя конечно и у меня были
-pln свои взлеты и падения. Вот и вам предстоит повторить мой подвиг - взяв по
-pln сто йен, вы отправитесь в Осаку, и займетесь спекуляциями на цене риса.
-pln Покупайте дешево, продавайте дороже, и скоро обагатитесь. Тот из вас, кто
-pln вернеться назад с самой большой сумой денег через 30 дней, и станет моим
-pln наследником, и получит от меня в наследство все 10000 йен.
+pln Japan, 18th Century. An old merchant lies dying in his home.
+pln He has three sons, and he calls them to his side.
+pln "Do not rejoice prematurely at my death,” he says. "A wise monk has told me
+pln I will not pass away until another month has passed. You well know that
+pln I possess 10,000 yen in rice certificates, earned through my speculations
+pln on rice prices. But I will not give them to any of you - neither to you,
+pln Taro, nor to you, Jiro, nor to you, Saburo. Forty years ago, as young as
+pln you are now, I arrived in Osaka with only a hundred yen - all that remained
+pln to me from my father after he passed away and I sold his house. Not knowing
+pln what to do in the big city, I began to speculate on rice prices and quickly
+pln succeeded, though of course I had my ups and downs. Now it is your turn to
+pln replicate my feat - each of you will take a hundred yen, go to Osaka, and
+pln engage in rice price speculation.
+pln Buy low, sell high, and you will soon grow rich. The one among you who
+pln returns with the largest sum of money in 30 days will become my heir and
+pln receive all 10,000 yen from me as inheritance."
 pln
-pln [ИСТОРИЧЕСКАЯ СПРАВКА : В действительности в Японии 18-го века уже
-pln существовала первая в мире биржа фьючерсов, где торговали рисовыми талонами -
-pln дающими право на урожаи риса еще будущих годов. Спекулянты на цене риса часто
-pln были богаче удельных князей - что впрочем часто стоило им головы. Йен в ту
-pln пору еще не было - все попытки ввести бумажные деньги оканчивались их полным
-pln обесцениванием - однако для простоты рассчетов мы будем использовать в игре
-pln йены как валюту - если кому больше нравиться, то считайте их серебрянными
-pln монетами. Коку - эта японская мера измерения риса - как считалось, достаточная
-pln для человека на год. Примерно равна пяти бушелям.]
+pln HISTORICAL NOTE
+pln In reality, 18th-century Japan already had the world's first futures
+pln exchange, where rice certificates granting rights to future rice
+pln harvests were traded. Rice speculators were often wealthier than feudal
+pln lords - though this often cost them their heads. Yen did not exist at that
+pln time - all attempts to introduce paper money ended in their complete
+pln devaluation. However, for the sake of simplicity in the game, we will use
+pln yen as currency. If you prefer, you may consider them silver coins.
+pln Koku was a Japanese measure of rice, considered sufficient for a person
+pln for a year, approximately equal to 5 bushels.
 pln
-pln [ОТ АВТОРА : Итак вы отправляетесь в Осаку в роли Сабуро - игра НЕ являеться
-pln квестом - все сие творение есть попытка написать на урке симулятор биржи -
-pln результат увлечения автором в последнее время рынка Форекс. :)
-pln Постоянно меняющиеся курсы конечно следовало бы представить в виде графика,
-pln однако в настоящее время урка пока не имеет таковой возможности - так что
-pln берите милимитровку, и рисуйте графики на ней. Для любителей японских свечей
-pln информация приведена также - рисуйте наздоровье. :))
-pln Будучи в роли Сабуро не стоит пытаться удвоить, или утроить свои 100 йен -
-pln это весьма рискованно, и не всегда возможно - хорошим результатом по концу
-pln месяца будт 110-120 йен - и такого результата вполне может хватить для
-pln победы над единокровными братьями. В этой миссии вы должны научиться тому,
-pln как сохранять депозит. Это первейшее и важнейшее умение рисового спекулянта.]
-btn старт,Дальше
+pln FROM THE AUTHOR
+pln So, you are heading to Osaka as Saburo. This game is NOT a quest.
+pln This creation is an attempt to write a commodity exchange simulator on URQ,
+pln inspired by the author's recent interest in the Forex market.
+pln The constantly changing rates should ideally be presented in graph form.
+pln However, URQ currently does not have this capability, so take graph paper
+pln and draw the charts yourself. Candlestick chart information is also
+pln provided - feel free to use it.
+pln As Saburo, do not attempt to double or triple your 100 yen - it is quite
+pln risky and not always possible. A good result at the end of the month
+pln would be 110-120 yen, which may well be enough to defeat your
+pln half-brothers. In this mission, you must learn how to preserve your
+pln deposit - this is the foremost and most important skill of
+pln a rice speculator.
+pln
+pln FROM THE TRANSLATOR
+pln This is a translation from Russian of the game "Рисовая Биржа. Осака. XVIII век"
+pln for the URQ_DOS text-based game engine. The original game was first
+pln published on December 31, 2004.
+pln This is a rather atypical game for the URQ engine family, which makes it
+pln even more noteworthy.
+pln In 2025, it was translated into English and adapted for
+pln the UrqW text-based game engine.
+btn старт,Next
 end
 
 
@@ -58,61 +71,62 @@ proc rnd
 ;деньги_таро=рнд+50
 деньги_таро=деньги_таро+рис_таро*курс_покупка/100
 деньги_джиро=деньги_джиро+рис_джиро*курс_покупка/100
-pln Месяц окончился.
-pln И снова...
-pln Япония. XVIII век. Умирает старый купец в своем доме.
-pln Три сына есть у него. Трех сыновей зовет он к себе.
-pln - Чтож, говорит старый купец, сейчас мы посмотрим кто что принес нам.
-pln Что ты принес нам, Таро, первенец мой?
-pln - Я принес #деньги_таро$ йен, которые остались у меня после спекуляций.
-pln - Чтож, - отвечает купец, - Могло быть гораздо хуже.
-if деньги_таро>100 then pln Ты заработал #(деньги_таро-100)$ йен.
-if деньги_таро<100 then pln Ты потрятил зазря #(100-деньги_таро)$ йен.
-pln Твоя рентабельность #((деньги_таро-100))$ процентов.
-pln Теперь ты, Джиро? Что принес ты?
-pln - У меня закончились почти все деньги, папа, - отвечает Джиро. - Я голодал, и
-pln чудом дошел до дому.
-if деньги_джиро>100 then pln Ты заработал #(деньги_джиро-100)$ йен.
-if деньги_джиро<100 then pln Ты потрятил зазря #(100-деньги_джиро)$ йен.
-pln Твоя рентабельность #((деньги_джиро-100))$ процентов.
-pln - Чтож, - отвечает купец - тут тоже все ясно. Отправляйся прочь с глаз моих
-pln к своей матери. Она нальет тебе сакэ, и отведет к гейше. А на мое наследство
-pln можешь не рассчитывать!
-pln Что же у тебя, Сабуро?
-pln - Я принес #inv_йен$ йен, папа - говорите вы.
-pln - Чтож, - отвечает купец, - Могло быть гораздо хуже.
-if inv_йен>100 then pln Ты заработал #(inv_йен-100)$ йен.
-if inv_йен<100 then pln Ты потрятил зазря #(100-inv_йен)$ йен.
-pln Твоя рентабельность #((inv_йен-100))$ процентов.
-if деньги_таро>inv_йен then if деньги_таро>деньги_джиро then pln - Победил Таро! - восклицает отец - Ваша миссия провалена!
-if деньги_таро<inv_йен then if деньги_джиро<inv_йен then pln - Победил Сабуро! - восклицает отец - Ваша миссия выполнена!&goto миссия_2
-if деньги_джиро>inv_йен then if деньги_таро<деньги_джиро then pln - Победил Джиро! - восклицает отец - Ваша миссия провалена!
-pln Вы проиграли
+pln The month had come to an end.
+pln And once again...
+pln Japan, 18th Century. An old merchant lies dying in his home.
+pln He has three sons, and he calls them to his side.
+pln "Well," says the old merchant, "now let's see who has brought us what.
+pln Tarou, my firstborn, what have you brought us?"
+pln "I have brought #деньги_таро$ yen, what remained after my speculations."
+pln "Well," replies the merchant, "it could have been much worse."
+if деньги_таро>100 then pln You earned #(деньги_таро-100)$ yen.
+if деньги_таро<100 then pln You wasted #(100-деньги_таро)$ yen.
+pln Your profitability is #((деньги_таро-100))$ percent.
+pln Now it's your turn, Jiro? What have you brought?
+pln "I have run out of almost all my money, Dad", Jiro replies. "I have been
+pln starving and only by a miracle made it home."
+if деньги_джиро>100 then pln You earned #(деньги_джиро-100)$ yen.
+if деньги_джиро<100 then pln You wasted #(100-деньги_джиро)$ yen.
+pln Your profitability #((деньги_джиро-100))$ percent.
+pln "Well," the merchant replies, "everything is clear here as well. Go away
+pln from my sight to your mother. She will pour you some sake and take you to
+pln the geisha. And don't count on my inheritance!
+pln And what about you, Saburo?"
+pln "I brought #inv_йен$ yen, Dad," you say.
+pln "Well," replies the merchant, "it could have been much worse."
+if inv_йен>100 then pln You earned #(inv_йен-100)$ yen.
+if inv_йен<100 then pln You wasted #(100-inv_йен)$ yen.
+pln Your profitability #((inv_йен-100))$ percent.
+if деньги_таро>inv_йен then if деньги_таро>деньги_джиро then pln "Taro has won!" exclaims the father. Your mission has failed!
+if деньги_таро<inv_йен then if деньги_джиро<inv_йен then pln "Saburo has won!" exclaims the father. Your mission is accomplished! &goto миссия_2
+if деньги_джиро>inv_йен then if деньги_таро<деньги_джиро then pln "Jiro has won!" exclaims the father. Your mission has failed!
+pln You have lost.
 quit=1
 end
 
 :миссия_2
 ;pln Продолжение этой игры отсутствует, хотя конечно можно бы и сделать :)
-pln                               К О Н Е Ц
+pln                               THE END
 quit=1
 end
 
 :старт
-pln Рисовая Биржа. Осака. XVIII век.
-pln (c) Ю.Павленко аки Goraph 2004
-btn биржа_считать_курс,Дальше
+pln The Rice Exchange. Osaka. 18th Century
+pln (C) 2004 Y. Pavlenko, a.k.a. Goraph
+pln Translation from Russian: (C) 2025 N. Tseykovets
+btn биржа_считать_курс,Next
 end
 
 
 :биржа_курс
-if quit<>1 then if час=1 then instr час_строкой=Дракона
-if quit<>1 then if час=2 then instr час_строкой=Змеи
-if quit<>1 then if час=3 then instr час_строкой=Лошади
-if quit<>1 then if час=4 then instr час_строкой=Козла
-if quit<>1 then if час=5 then instr час_строкой=Обезьяны
-if quit<>1 then if час=0 then instr час_строкой=Петуха
-if quit<>1 then pln День : #день$ Час #%час_строкой$
-if quit<>1 then pln Новости дня :
+if quit<>1 then if час=1 then instr час_строкой=Dragon
+if quit<>1 then if час=2 then instr час_строкой=Snake
+if quit<>1 then if час=3 then instr час_строкой=Horse
+if quit<>1 then if час=4 then instr час_строкой=Goat
+if quit<>1 then if час=5 then instr час_строкой=Monkey
+if quit<>1 then if час=0 then instr час_строкой=Rooster
+if quit<>1 then pln Day : #день$ Hour of the #%час_строкой$
+if quit<>1 then pln News of the day:
 ;if quit<>1 then pln #%новость1$
 if quit<>1 then pln #%новость2$
 if quit<>1 then pln #%новость3$
@@ -120,50 +134,50 @@ if quit<>1 then pln #%новость4$
 if quit<>1 then pln #%новость5$
 if quit<>1 then pln #%новость6$
 if quit<>1 then pln
-if quit<>1 then pln Сегодня за 1 Коку риса :
-if quit<>1 then pln Цена Покупки : #(курс_покупка/100)$
-if quit<>1 then pln Цена Продажи : #(курс_продажа/100)$
-if quit<>1 then pln Ситуация у Таро : #деньги_таро$ йен, #рис_таро$ коку риса
-if quit<>1 then pln Ситуация у Джиро : #деньги_джиро$ йен, #рис_джиро$ коку риса
-if quit<>1 then pln Ваши финансы : #inv_йен$ йен,  Запасы риса : #inv_коку риса$ коку
+if quit<>1 then pln Today for 1 koku of rice:
+if quit<>1 then pln Bid: #(курс_покупка/100)$
+if quit<>1 then pln Ask: #(курс_продажа/100)$
+if quit<>1 then pln Taro's situation: #деньги_таро$ yen, #рис_таро$ koku of rice
+if quit<>1 then pln Jiro's situation: #деньги_джиро$ yen, #рис_джиро$ koku of rice
+if quit<>1 then pln Your finances: #inv_йен$ yen,  Rice reserves: #inv_коку риса$ koku
 if quit<>1 then pln
-if quit<>1 then pln Исключительно для свечного анализа :
-if quit<>1 then pln Максимальная цена : #(максимальная_цена/100)$
-if quit<>1 then pln Минимальная цена : #(минимальная_цена/100)$
-if quit<>1 then pln Цена открытия : #(цена_открытие/100)$
-if quit<>1 then pln Цена закрытия : #(цена_закрытие/100)$
-if quit<>1 then btn биржа_покупка, Купить рис
-if quit<>1 then btn биржа_продажа, Продать рис
-if quit<>1 then btn биржа_считать_курс,Дальше
+if quit<>1 then pln Exclusively for candlestick analysis:
+if quit<>1 then pln High price: #(максимальная_цена/100)$
+if quit<>1 then pln Low price: #(минимальная_цена/100)$
+if quit<>1 then pln Opening price: #(цена_открытие/100)$
+if quit<>1 then pln Closing price: #(цена_закрытие/100)$
+if quit<>1 then btn биржа_покупка, Buy rice
+if quit<>1 then btn биржа_продажа, Sell rice
+if quit<>1 then btn биржа_считать_курс,Next
 end
 
 
 :новость_часа
 число=10
 proc rnd
-if рнд=1 then instr местность=Синдзюку
-if рнд=2 then instr местность=Йокоги
-if рнд=3 then instr местность=Хокарадо
-if рнд=4 then instr местность=Микасадзе
-if рнд=5 then instr местность=Хорюдзе
-if рнд=6 then instr местность=Санодзюро
-if рнд=7 then instr местность=Сипароя
-if рнд=8 then instr местность=Ондэ
-if рнд=9 then instr местность=Кайо
-if рнд=10 then instr местность=Михаго
+if рнд=1 then instr местность=Shinjuku
+if рнд=2 then instr местность=Yokogyo
+if рнд=3 then instr местность=Hokarado
+if рнд=4 then instr местность=Mikasadze
+if рнд=5 then instr местность=Horyudze
+if рнд=6 then instr местность=Sanojuro
+if рнд=7 then instr местность=Siparoya
+if рнд=8 then instr местность=Onde
+if рнд=9 then instr местность=Kayo
+if рнд=10 then instr местность=Mihago
 число=10
 proc rnd
 р=рнд
-if р=1 then instr новость#час$=Пожар в амбарах #%местность$! &число=10&proc rnd&сила_медведей=сила_медведей+рнд
-if р=2 then instr новость#час$=Крысы сьели весь рис в закромах #%местность$&число=3&proc rnd&сила_медведей=сила_медведей+рнд
-if р=3 then instr новость#час$=Снег в #%местность$ погубил урожай риса&число=6&proc rnd&сила_медведей=сила_медведей+рнд
-if р=4 then instr новость#час$=Разбойники в #%местность$ перебили всех крестьян и забрали рис.&число=8&proc rnd&сила_медведей=сила_медведей+рнд
-if р=5 then instr новость#час$=Все спокойно в #%местность$
-if р=6 then instr новость#час$=Из #%местность$ нет никаких новостей
-if р=7 then instr новость#час$=Долгожданный дождь пошел в #%местность$&число=8&proc rnd&сила_быков=сила_быков+рнд
-if р=8 then instr новость#час$=Буддистские монахи обещают хороший урожай риса в #%местность$&число=6&proc rnd&сила_быков=сила_быков+рнд
-if р=9 then instr новость#час$=По слухам в #%местность$ будет хороший урожай риса в этом году.&число=3&proc rnd&сила_быков=сила_быков+рнд
-if р=10 then instr новость#час$=Карательные акции самураев позволили добыть больше риса в #%местность$&число=10&proc rnd&сила_быков=сила_быков+рнд
+if р=1 then instr новость#час$=Fire in the #%местность$ granaries. &число=10&proc rnd&сила_медведей=сила_медведей+рнд
+if р=2 then instr новость#час$=Rats have eaten all the rice in #%местность$'s storehouses. &число=3&proc rnd&сила_медведей=сила_медведей+рнд
+if р=3 then instr новость#час$=Snow in #%местность$ has destroyed the rice harvest. &число=6&proc rnd&сила_медведей=сила_медведей+рнд
+if р=4 then instr новость#час$=Bandits in #%местность$ have killed all the peasants and taken the rice. &число=8&proc rnd&сила_медведей=сила_медведей+рнд
+if р=5 then instr новость#час$=Everything is peaceful in #%местность$.
+if р=6 then instr новость#час$=There is no news from #%местность$.
+if р=7 then instr новость#час$=The long-awaited rain has fallen in #%местность$. &число=8&proc rnd&сила_быков=сила_быков+рнд
+if р=8 then instr новость#час$=Buddhist monks promise a good rice harvest in #%местность$. &число=6&proc rnd&сила_быков=сила_быков+рнд
+if р=9 then instr новость#час$=According to rumors, #%местность$ will have a good rice harvest this year. &число=3&proc rnd&сила_быков=сила_быков+рнд
+if р=10 then instr новость#час$=The punitive actions of the samurai allowed for more rice to be obtained in #%местность$. &число=10&proc rnd&сила_быков=сила_быков+рнд
 if р<=4 then фунд=фунд+1
 if р>=7 then фунд=фунд-1
 end
@@ -217,21 +231,21 @@ instr новость5=
 instr новость6=
 день=день+1
 if день>=31 then goto миссия_1_конец
-pln Биржа закрылась, и отправившись на постоялый двор, вы, устав от бесконечных торгов упали на циновку и уснули, предварительно поев.
+pln The exchange has closed. You went to the inn. Exhausted from endless trading, you had a meal, lay down on the mat, and fell asleep.
 pln
-pln За еду и постель с вас 0.50 йен
+pln The cost of food and lodging is 0.50 yen.
 inv- 0.50,йен
 деньги_таро=деньги_таро-0.5
 деньги_джиро=деньги_джиро-0.5
 деньги_таро=деньги_таро-рис_таро*0.1
 деньги_джиро=деньги_джиро-рис_джиро*0.1
 pln
-pln За хранение риса с вас налог #(inv_коку риса/10)$ йен.
+pln The tax for storing rice is #(inv_коку риса/10)$ yen.
 pln
 inv- #(inv_коку риса/10)$,йен
 if not йен then goto биржа_нет_денег
 pln
-pln Начало торгов на бирже
+pln Start of trading on the rice exchange
 pln
 число=10
 proc rnd
@@ -243,24 +257,24 @@ end
 
 :биржа_конец_дня
 час=0
-pln Конец дня на бирже!!!
+pln End of the day on the rice exchange!!!
 pln
-pln Конечные цены установлены :
+pln Final prices are set:
 end
 
 :биржа_нет_денег
-pln У вас нет денег, чтобы заплатить за ночлег! Стражи порядка спешно арестовывают вас, и отправляют на полезные хозяйственный работы по посеву риса, чтобы отработать вашу провинность.
+pln You don't have enough money to pay for your lodging! The guards hastily arrest you and send you to perform useful agricultural work planting rice to atone for your offense.
 число=3
 proc rnd
 рнд=рнд+1
 день=день+рнд
-pln Проведя #рнд$ дня на посевах риса, вы возвращаетесь на торги.
+pln After spending #рнд$ days working in the rice fields, you return to the rice exchange trading.
 end
 
 :биржа_покупка
-pln Цена Продажи : #(курс_продажа/100)$
-pln Ваши финансы : #inv_йен$ йен
-pln Сколько коку риса вы желаете купить?
+pln Ask: #(курс_продажа/100)$
+pln Your finances: #inv_йен$ yen
+pln How many koku of rice do you want to buy?
 btn биржа_покупка_1,1
 btn биржа_покупка_2,2
 btn биржа_покупка_5,5
@@ -268,7 +282,7 @@ btn биржа_покупка_10,10
 btn биржа_покупка_20,20
 btn биржа_покупка_50,50
 btn биржа_покупка_100,100
-btn биржа_курс,Я передумал покупать рис
+btn биржа_курс,I changed my mind about buying rice
 end
 
 :биржа_покупка_1
@@ -305,16 +319,16 @@ end
 if inv_йен<количество*(курс_продажа/100) then goto биржа_недостаточно_финансов
 inv- #(количество*(курс_продажа/100))$,йен
 inv+ #количество$,коку риса
-pln Вы купили #количество$ коку риса
-btn биржа_курс,Дальше
+pln You bought #количество$ koku of rice
+btn биржа_курс,Next
 end
 
 
 
 :биржа_продажа
-pln Цена Покупка : #(курс_покупка/100)$
-pln Ваши финансы : #inv_йен$ йен
-pln Сколько коку риса вы желаете продать?
+pln Bid: #(курс_покупка/100)$
+pln Your finances: #inv_йен$ yen
+pln How many koku of rice would you like to sell?
 btn биржа_продажа_1,1
 btn биржа_продажа_2,2
 btn биржа_продажа_5,5
@@ -322,7 +336,7 @@ btn биржа_продажа_10,10
 btn биржа_продажа_20,20
 btn биржа_продажа_50,50
 btn биржа_продажа_100,100
-btn биржа_курс,Я передумал продавать рис
+btn биржа_курс,I changed my mind about selling rice
 end
 
 :биржа_продажа_1
@@ -359,19 +373,19 @@ end
 if inv_коку риса<количество then goto биржа_недостаточно_риса
 inv+ #(количество*(курс_покупка/100))$,йен
 inv- #количество$,коку риса
-pln Вы продали #количество$ коку риса
-btn биржа_курс,Дальше
+pln You sold #количество$ koku of rice
+btn биржа_курс,Next
 end
 
 
 :биржа_недостаточно_финансов
-pln Недостаточно финансов
-btn биржа_курс,Дальше
+pln Not enough finances
+btn биржа_курс,Next
 end
 
 :биржа_недостаточно_риса
-pln У вас нет столько риса
-btn биржа_курс,Дальше
+pln You don't have that much rice
+btn биржа_курс,Next
 end
 
 

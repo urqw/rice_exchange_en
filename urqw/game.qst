@@ -7,7 +7,7 @@
 proc rnd
 курс_покупка=2000+рнд
 курс_продажа=курс_покупка+1
-inv+ 100.00,йен
+inv+ 100.00,yen
 день=0
 час=0
 pln Japan, 18th Century. An old merchant lies dying in his home.
@@ -92,14 +92,14 @@ pln "Well," the merchant replies, "everything is clear here as well. Go away
 pln from my sight to your mother. She will pour you some sake and take you to
 pln the geisha. And don't count on my inheritance!
 pln And what about you, Saburo?"
-pln "I brought #inv_йен$ yen, Dad," you say.
+pln "I brought #inv_yen$ yen, Dad," you say.
 pln "Well," replies the merchant, "it could have been much worse."
-if inv_йен>100 then pln You earned #(inv_йен-100)$ yen.
-if inv_йен<100 then pln You wasted #(100-inv_йен)$ yen.
-pln Your profitability #((inv_йен-100))$ percent.
-if деньги_таро>inv_йен then if деньги_таро>деньги_джиро then pln "Taro has won!" exclaims the father. Your mission has failed!
-if деньги_таро<inv_йен then if деньги_джиро<inv_йен then pln "Saburo has won!" exclaims the father. Your mission is accomplished! &goto миссия_2
-if деньги_джиро>inv_йен then if деньги_таро<деньги_джиро then pln "Jiro has won!" exclaims the father. Your mission has failed!
+if inv_yen>100 then pln You earned #(inv_yen-100)$ yen.
+if inv_yen<100 then pln You wasted #(100-inv_yen)$ yen.
+pln Your profitability #((inv_yen-100))$ percent.
+if деньги_таро>inv_yen then if деньги_таро>деньги_джиро then pln "Taro has won!" exclaims the father. Your mission has failed!
+if деньги_таро<inv_yen then if деньги_джиро<inv_yen then pln "Saburo has won!" exclaims the father. Your mission is accomplished! &goto миссия_2
+if деньги_джиро>inv_yen then if деньги_таро<деньги_джиро then pln "Jiro has won!" exclaims the father. Your mission has failed!
 pln You have lost.
 quit=1
 end
@@ -139,7 +139,7 @@ if quit<>1 then pln Bid: #(курс_покупка/100)$
 if quit<>1 then pln Ask: #(курс_продажа/100)$
 if quit<>1 then pln Taro's situation: #деньги_таро$ yen, #рис_таро$ koku of rice
 if quit<>1 then pln Jiro's situation: #деньги_джиро$ yen, #рис_джиро$ koku of rice
-if quit<>1 then pln Your finances: #inv_йен$ yen,  Rice reserves: #inv_коку риса$ koku
+if quit<>1 then pln Your finances: #inv_yen$ yen,  Rice reserves: #inv_koku of rice$ koku
 if quit<>1 then pln
 if quit<>1 then pln Exclusively for candlestick analysis:
 if quit<>1 then pln High price: #(максимальная_цена/100)$
@@ -234,16 +234,16 @@ if день>=31 then goto миссия_1_конец
 pln The exchange has closed. You went to the inn. Exhausted from endless trading, you had a meal, lay down on the mat, and fell asleep.
 pln
 pln The cost of food and lodging is 0.50 yen.
-inv- 0.50,йен
+inv- 0.50,yen
 деньги_таро=деньги_таро-0.5
 деньги_джиро=деньги_джиро-0.5
 деньги_таро=деньги_таро-рис_таро*0.1
 деньги_джиро=деньги_джиро-рис_джиро*0.1
 pln
-pln The tax for storing rice is #(inv_коку риса/10)$ yen.
+pln The tax for storing rice is #(inv_koku of rice/10)$ yen.
 pln
-inv- #(inv_коку риса/10)$,йен
-if not йен then goto биржа_нет_денег
+inv- #(inv_koku of rice/10)$,yen
+if not yen then goto биржа_нет_денег
 pln
 pln Start of trading on the rice exchange
 pln
@@ -273,7 +273,7 @@ end
 
 :биржа_покупка
 pln Ask: #(курс_продажа/100)$
-pln Your finances: #inv_йен$ yen
+pln Your finances: #inv_yen$ yen
 pln How many koku of rice do you want to buy?
 btn биржа_покупка_1,1
 btn биржа_покупка_2,2
@@ -316,9 +316,9 @@ end
 
 
 :биржа_покупка_н
-if inv_йен<количество*(курс_продажа/100) then goto биржа_недостаточно_финансов
-inv- #(количество*(курс_продажа/100))$,йен
-inv+ #количество$,коку риса
+if inv_yen<количество*(курс_продажа/100) then goto биржа_недостаточно_финансов
+inv- #(количество*(курс_продажа/100))$,yen
+inv+ #количество$,koku of rice
 pln You bought #количество$ koku of rice
 btn биржа_курс,Next
 end
@@ -327,7 +327,7 @@ end
 
 :биржа_продажа
 pln Bid: #(курс_покупка/100)$
-pln Your finances: #inv_йен$ yen
+pln Your finances: #inv_yen$ yen
 pln How many koku of rice would you like to sell?
 btn биржа_продажа_1,1
 btn биржа_продажа_2,2
@@ -370,9 +370,9 @@ end
 
 
 :биржа_продажа_н
-if inv_коку риса<количество then goto биржа_недостаточно_риса
-inv+ #(количество*(курс_покупка/100))$,йен
-inv- #количество$,коку риса
+if inv_koku of rice<количество then goto биржа_недостаточно_риса
+inv+ #(количество*(курс_покупка/100))$,yen
+inv- #количество$,koku of rice
 pln You sold #количество$ koku of rice
 btn биржа_курс,Next
 end

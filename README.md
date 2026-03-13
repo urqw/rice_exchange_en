@@ -4,7 +4,7 @@ Text-based game "The Rice Exchange. Osaka. 18th Century" by Yuri Pavlenko, a.k.a
 
 The game is in English, developed for URQ_DOS, and adapted for [UrqW](https://github.com/urqw/UrqW) text-based game engine.
 
-This repository contains the source code and other resources of the game. The game is available for launch in the [UrqW engine online catalog](https://urqw.github.io/UrqW/#rice_exchange_en). See the original Russian version [here](https://github.com/urqw/rice_exchange).
+This repository contains the source code and other resources of the game. The game is available for launch in the [UrqW engine online catalog](https://urqw.github.io/UrqW/?id=rice_exchange_en). See the original Russian version [here](https://github.com/urqw/rice_exchange).
 
 The game was first published on May 3, 2025.
 
